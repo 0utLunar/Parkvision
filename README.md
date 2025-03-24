@@ -2,7 +2,7 @@
 
 
 ## 📌 Sobre o Projeto
-O **ParkVision** é um aplicativo inteligente para ajudar motoristas a encontrar vagas de estacionamento disponíveis em tempo real. Ele utiliza algoritmos avançados e tecnologias de geolocalização para otimizar o tempo e facilitar a experiência dos usuários.
+O **ParkVision** é um aplicativo inteligente para ajudar motoristas a encontrar vagas de estacionamento disponíveis em tempo real. Ele utiliza algoritmos avançados e tecnologias de visão computacional para identificar vagas ocupadas e otimizar o tempo, facilitando a experiência dos usuários em estacionamentos!
 
 Este projeto foi desenvolvido como parte do **TCC do SENAI**.
 
