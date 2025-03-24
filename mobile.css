@@ -1,0 +1,117 @@
+/* Ajustes gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajusta o banner para ocupar a altura total da tela */
+    overflow: hidden;
+}
+
+header .w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Banner */
+.banner img {
+    width: 100vw; /* Largura completa da tela */
+    height: 100vh; /* Altura completa da tela */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o espaço */
+    display: block;
+}
+
+/* Mapa de vagas */
+.mapa-vagas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.vagas-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas no mobile */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo das vagas */
+.spot {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: gray;
+    color: white;
+}
+
+/* Mudança de cor das vagas com base no status */
+.spot[data-status="free"] {
+    background-color: green;
+}
+
+.spot[data-status="occupied"] {
+    background-color: red;
+}
+
+.spot[data-status="reserved"] {
+    background-color: orange;
+}
+
+/* Efeito ao passar o mouse por cima da vaga */
+.spot:hover {
+    transform: scale(1.05); /* Aumenta um pouco ao passar o mouse */
+}
+
+/* Sobre os integrantes */
+.sobre {
+    margin-top: 30px;
+}
+
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.integrante {
+    text-align: center;
+}
+
+.integrante img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.integrante p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: bold;
+}

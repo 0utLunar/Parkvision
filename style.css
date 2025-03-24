@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header .w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .w3-padding {
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+#home h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parking-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.legend-color.free {
+    background-color: green;
+}
+
+.legend-color.reserved {
+    background-color: orange;
+}
+
+.legend-color.occupied {
+    background-color: red;
+}
+
+.parking-lot {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    /* Define 10 colunas */
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.spot {
+    width: 100px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.spot[data-status="free"] {
+    background-color: green;
+    color: white;
+    transform: scale(1);
+}
+
+.spot[data-status="occupied"] {
+    background-color: red;
+    color: white;
+}
+
+.spot[data-status="reserved"] {
+    background-color: orange;
+    color: white;
+}
+
+.spot:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
