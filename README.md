@@ -11,7 +11,6 @@ Este projeto foi desenvolvido como parte do **TCC do SENAI**.
 - 📊 **Análise de Disponibilidade**: Mostra a taxa de ocupação em tempo real.
 - 🗺️ **Mapas Interativos**: Integração com mapas para navegação.
 - 📅 **Reservas de Vagas**: Permite agendar estacionamento em locais parceiros.
-- 🔔 **Notificações Inteligentes**: Alertas sobre vagas liberadas próximas a você.
 
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Python
