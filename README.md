@@ -30,7 +30,9 @@ Este projeto foi desenvolvido como parte do **TCC do SENAI**.
    ```
 3. Instale as dependências:
    ```bash
-   pip install opencv-python
+   pip install opencv-python-headless
+   pip install numpy
+   pip install cvzone
    ```
 4. No Projeto, edite e coloque o link da stream da sua câmera, ou um arquivo de video/imagem
 5. Inicie o projeto (programa para setar as vagas e outro para recebelas):
