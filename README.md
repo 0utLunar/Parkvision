@@ -59,4 +59,4 @@ Sinta-se à vontade para contribuir com o ParkVision! Para isso:
 5. Abra um Pull Request.
 
 ---
-Desenvolvido por **Lucas Cirino** e sua equipe! 🚀
+Desenvolvido por **Lucas Cirino, Nicolas Fernando Tessaro Reis, Lara Giusti da Silva, Lara Elyse José, Matheus Henrique de Souza e Lucas Dantas Avelar** ! 🚀
