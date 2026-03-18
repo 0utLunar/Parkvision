@@ -21,7 +21,7 @@ Este projeto foi desenvolvido como parte do **TCC do SENAI**.
 ## 📦 Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/parkvision.git
+   git clone https://github.com/0utLunar/parkvision.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
